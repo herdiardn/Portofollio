@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Herdi Ardana",
   title: "Software Engineer, Full-Stack Developer & UI/UX Designer",
-  description: "Passionate about creating innovative digital solutions with exceptional user experiences. I specialize in modern web technologies and enjoy turning complex problems into simple, beautiful, and intuitive solutions.",
+  description: "Passionate about creating innovative digital solutions with exceptional user experiences. Specialize in modern web technologies and enjoy turning complex problems into simple, beautiful, and intuitive solutions.",
   email: "herdiardan@gmail.com",
   linkedin: "https://www.linkedin.com/in/herdi-ardana-b51082221/",
   github: "https://github.com/herdiardn",
@@ -249,6 +249,15 @@ export const projects = [
     description: "A platform for managing proposals related to water resources infrastructure in East Jakarta. Easy input, validation, and visualization of proposal data in an efficient and responsive manner.",
     image: "porto9.png",
     technologies: ["React JS", "Vite", "Java Script", "Tailwind", "PostgreSQL", "MUI"],
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    id: 10,
+    title: "Super Grosir Mobile App",
+    description: "Super Grosir Mobile App is a wholesale shopping application that makes it easy for users to buy various daily necessities in bulk at affordable prices, right from the palm of their hands.",
+    image: "porto10.png",
+    technologies: ["React", "Konsta", "Ionic", "MUI" ],
     demoUrl: "#",
     githubUrl: "#"
   },
