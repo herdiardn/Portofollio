@@ -62,7 +62,7 @@ function App() {
                   </h3>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  © 2024 Herdi Ardana. Built with React & TypeScript. Designed with passion.
+                  © 2025 Herdi Ardana. Built with React & TypeScript. Designed with passion.
                 </p>
                 <div className="flex justify-center items-center space-x-2 text-sm text-gray-400">
                   <span>Made with</span>

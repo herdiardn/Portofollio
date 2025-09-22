@@ -248,7 +248,7 @@ export const projects = [
     title: "SDA Jaktim Web App",
     description: "A platform for managing proposals related to water resources infrastructure in East Jakarta. Easy input, validation, and visualization of proposal data in an efficient and responsive manner.",
     image: "porto9.png",
-    technologies: ["React JS", "Vite", "Java Script", "Tailwind", "PostgreSQL", "MUI"],
+    technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -258,6 +258,15 @@ export const projects = [
     description: "Super Grosir Mobile App is a wholesale shopping application that makes it easy for users to buy various daily necessities in bulk at affordable prices, right from the palm of their hands.",
     image: "porto10.png",
     technologies: ["React", "Konsta", "Ionic", "MUI" ],
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    id: 11,
+    title: "NextAction Web App",
+    description: "A web-based IoT (Internet of Things) platform that provides various key features for centrally managing and monitoring devices. This application is designed so that users can perform Device Management, Maintenance, Monitoring & Alert, as well as set up Rule Automation, Rule & Task, and Configuration easily and efficiently.",
+    image: "porto11.png",
+    technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
     demoUrl: "#",
     githubUrl: "#"
   },
