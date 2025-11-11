@@ -12,6 +12,9 @@ import porto8 from '../assets/porto8.png';
 import porto9 from '../assets/porto9.png';
 import porto10 from '../assets/porto10.png';
 import porto11 from '../assets/porto11.png';
+import porto12 from '../assets/porto12.png';
+import porto13 from '../assets/porto13.png';
+import porto14 from '../assets/porto14.png';
 
 const Portfolio: React.FC = () => {
   const Image: Record<string, string> = {
@@ -25,7 +28,10 @@ const Portfolio: React.FC = () => {
   'porto8.png': porto8,
   'porto9.png': porto9,
   'porto10.png' : porto10,
-  'porto11.png' : porto11
+  'porto11.png' : porto11,
+  'porto12.png' : porto12,
+  'porto13.png' : porto13,
+  'porto14.png' : porto14
 };
   return (
     <section id="portfolio" className="py-20 relative overflow-hidden bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900">

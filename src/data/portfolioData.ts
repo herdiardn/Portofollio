@@ -13,7 +13,7 @@ export const about = {
   description: "I'm a dedicated software engineer with expertise in full-stack development and UI/UX design. With a strong foundation in modern web technologies, I create scalable applications that deliver exceptional user experiences. My passion lies in bridging the gap between technical functionality and beautiful design.",
   skills: ["React", "JavaScript", "TypeScript", "Vue.js", "Python"],
   stats: [
-    { label: "Projects", value: "10+" },
+    { label: "Projects", value: "15+" },
     { label: "Certificates", value: "13+" },
     { label: "Years Experience", value: "3+" }
   ]
@@ -33,7 +33,8 @@ export const skills = [
   { name: "Firebase", logo: "firebase.png" },
   { name: "Vite", logo: "vite.png" },
   { name: "My SQL", logo: "mysql.png" },
-  { name: "PostgreSQL", logo: "postgre.png" }
+  { name: "PostgreSQL", logo: "postgre.png" },
+  { name: "Konsta", logo: "konsta.png" }
 ];
 
 export const experience = [
@@ -218,7 +219,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Lac Let Web App Design",
+    title: "Lac Let Web App",
     description: "Developing a web application for Telkom University Languange Center, Lac is a special institution for language courses. This website is intended for students who want to practice or test English online practically.",
     image: "porto6.png",
     technologies: ["Python", "Django"],
@@ -245,7 +246,7 @@ export const projects = [
   },
   {
     id: 9,
-    title: "SDA Jaktim Web App",
+    title: "SDA Jakarta Timur Web App",
     description: "A platform for managing proposals related to water resources infrastructure in East Jakarta. Easy input, validation, and visualization of proposal data in an efficient and responsive manner.",
     image: "porto9.png",
     technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
@@ -266,6 +267,32 @@ export const projects = [
     title: "NextAction Web App",
     description: "A web-based IoT (Internet of Things) platform that provides various key features for centrally managing and monitoring devices. This application is designed so that users can perform Device Management, Maintenance, Monitoring & Alert, as well as set up Rule Automation, Rule & Task, and Configuration easily and efficiently.",
     image: "porto11.png",
+    technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    id: 12,
+    title: "AutoMart Mobile App",
+    description: "AutoMart is a mobile application that simplifies the process of buying and selling vehicle spare parts in a practical and secure manner. Through AutoMart, users can search for various car and motorcycle spare parts from various brands, compare prices, and make direct transactions with trusted sellers. This application also features quick search, category filters, a review system, and order tracking, allowing users to find spare parts that suit their needs more efficiently.With a simple and responsive interface, AutoMart is designed to provide an optimal user experience for both buyers and sellers in the digital automotive ecosystem.",
+    image: "porto12.png",
+    technologies: ["React", "Konsta", "Ionic", "MUI" ],
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    id: 13,
+    title: "Dashboard Super Grosir Web App",
+    description: "The SuperGrosir web dashboard gives business teams complete control over the marketplace: manage catalogs, process orders, monitor revenue, and assist customers—all in one place. A clean interface, real-time metrics, and moderation tools make operations fast and professional.",
+    image: "porto13.png",
+    technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "SDA Jakarta Utara Web App",
+    description: "A platform for managing proposals related to technical infrastructure for water resources in North Jakarta. Easy proposal input, design calculations, and efficient proposal validation.",
+    image: "porto14.png",
     technologies: ["React JS", "Vite", "Java Script", "Tailwind", "Python", "PostgreSQL", "MUI"],
     demoUrl: "#",
     githubUrl: "#"
