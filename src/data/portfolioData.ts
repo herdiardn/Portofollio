@@ -153,8 +153,8 @@ export const experience = [
   {
     id: 7,
     role: "Full-Stack Developer",
-    company: "Makers Institute",
-    logo: "makers.jpg",
+    company: "Navcore Nextology",
+    logo: "navcore.jpg",
     status: "Contract",
     location: "Bandung, Indonesia",
     workType: "On-Site",
