@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
   
-  const roles = ['Software Engineer', 'Full-Stack Developer', 'UI/UX Designer'];
+  const roles = ['IT Engineer, Software Engineer', 'Full-Stack Developer'];
 
   useEffect(() => {
     const currentRole = roles[currentRoleIndex];
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
   ];
 
   const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
+    const aboutSection = document.getElementById('contact');
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: 'smooth' });
     }

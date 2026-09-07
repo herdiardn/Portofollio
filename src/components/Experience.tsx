@@ -6,8 +6,8 @@ import lac from '../assets/lac.jpeg';
 import humic from '../assets/humic.jpeg';
 import caatis from '../assets/caatis.jpeg';
 import telkom from '../assets/telkom.png';
-import gdsc from '../assets/gdscc.png';
 import navcore from '../assets/navcore.jpg';
+import bri from '../assets/bri.png';
 
 
 const Experience: React.FC = () => {
@@ -17,8 +17,8 @@ const logoMap: Record<string, string> = {
   'humic.jpeg': humic,
   'caatis.jpeg': caatis,
   'telkom.png': telkom,
-  'gdsc.png': gdsc,
   'navcore.jpg': navcore,
+  'bri.png': bri
 };
 
   return (

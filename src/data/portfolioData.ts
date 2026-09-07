@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Herdi Ardana",
-  title: "Software Engineer, Full-Stack Developer & UI/UX Designer",
-  description: "Passionate about creating innovative digital solutions with exceptional user experiences. Specialize in modern web technologies and enjoy turning complex problems into simple, beautiful, and intuitive solutions.",
+  title: "IT Engineer, Software Engineer', 'Full-Stack Developer",
+  description: "Software Engineer & IT Engineer with experience in full-stack development and banking technology. I build modern web and mobile applications with a focus on scalable, reliable, and user-friendly solutions.",
   email: "herdiardan@gmail.com",
   linkedin: "https://www.linkedin.com/in/herdi-ardana-b51082221/",
   github: "https://github.com/herdiardn",
@@ -10,12 +10,12 @@ export const personalInfo = {
 };
 
 export const about = {
-  description: "I'm a dedicated software engineer with expertise in full-stack development and UI/UX design. With a strong foundation in modern web technologies, I create scalable applications that deliver exceptional user experiences. My passion lies in bridging the gap between technical functionality and beautiful design.",
-  skills: ["React", "JavaScript", "TypeScript", "Vue.js", "Python"],
+  description: "Software Engineering graduate and IT Engineer with experience in software development and banking technology. Skilled in developing web and mobile applications using React.js, Vue.js, Django, and Flutter, with experience in frontend and backend development, RESTful APIs, authentication, and database management.",
+  skills: ["React JS", "Vue JS", "Fast API", "Python Django", "Linux", "Zabbix", "Kubernetes", "Docker"],
   stats: [
     { label: "Projects", value: "15+" },
     { label: "Certificates", value: "13+" },
-    { label: "Years Experience", value: "3+" }
+    { label: "Years Experience", value: "1+" }
   ]
 };
 
@@ -34,7 +34,12 @@ export const skills = [
   { name: "Vite", logo: "vite.png" },
   { name: "My SQL", logo: "mysql.png" },
   { name: "PostgreSQL", logo: "postgre.png" },
-  { name: "Konsta", logo: "konsta.png" }
+  { name: "Konsta", logo: "konsta.png" },
+  { name: "Linux", logo: "linux.png" },
+  { name: "Zabbix", logo: "zabbix.png" },
+  { name: "Docker", logo: "docker.png" },
+  { name: "Kubernetes", logo: "kubernetes.png" },
+  { name: "Microsoft SQL Server", logo: "ms-sql-server.png" },
 ];
 
 export const experience = [
@@ -134,24 +139,6 @@ export const experience = [
   },
   {
     id: 6,
-    role: "Mobile Developer",
-    company: "GDoC(Google Developer Group on Campus)",
-    logo: "gdsc.png",
-    status: "Contract",
-    location: "Bandung, Indonesia",
-    workType: "Remote",
-    startDate: "February 2025",
-    endDate: "July 2025",
-    summary: "As a Mobile Developer member at GDGoC - Telkom University, I am responsible for designing, developing and optimizing mobile applications that are aligned with industry best practices and Google Developer guidelines.",
-    keyResponsibilities: [
-      "Access to classes and the features provide",
-      "Participate in webinars and seminar helds",
-      "Attend available bootcamps"
-    ],
-    techStack: ["Flutter", "Kotlin", "Firebase"]
-  },
-  {
-    id: 7,
     role: "Full-Stack Developer",
     company: "Navcore Nextology",
     logo: "navcore.jpg",
@@ -159,7 +146,7 @@ export const experience = [
     location: "Bandung, Indonesia",
     workType: "On-Site",
     startDate: "Mei 2025",
-    endDate: "Present",
+    endDate: "February 2026",
     summary: "As a FullStack Web Developer i am responsible for designing, developing and maintaining web and mobile applications. Using the Modern Js framework to build innovative and efficient application features.",
     keyResponsibilities: [
       "Building a web and application",
@@ -168,6 +155,26 @@ export const experience = [
       "Documentation and Maintenance"
     ],
     techStack: ["Java Script", "React", "MUI", "Konsta", "Python", "PostgreSQL" ]
+  },
+   {
+    id: 7,
+    role: "IT Engineer",
+    company: "PT Bank Rakyat Indonesia (BRI) Tbk",
+    logo: "bri.png",
+    status: "Contract",
+    location: "Jakarta, Indonesia",
+    workType: "On-Site",
+    startDate: "February 2026",
+    endDate: "Present",
+    summary: "Responsible for monitoring and maintaining banking payment systems and IT infrastructure to support secure, stable, and high-availability transaction services.",
+    keyResponsibilities: [
+      "Monitoring & Troubleshooting servers and cloud environments",
+      "Monitoring  & Troubleshooting  FDS (Fraud Detection System) for Transaction",
+      "Monitoring  & Troubleshooting Payment System(Bi-fast, Bri-fast, Kliring, RTGS, SWIFT)",
+      "Managing and maintaining infrastructure",
+      "Implementing and maintaining CI/CD pipelines"
+    ],
+    techStack: ["Linux", "Kubernetes", "Docker", "Zabbix", "Grafana", "Microsoft SQL Server", "MySQL" ]
   }
 ];
 
